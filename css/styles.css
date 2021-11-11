@@ -159,6 +159,7 @@ section {
     padding-top: 32px;
     padding-bottom: 32px;
     transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -173,6 +174,7 @@ section {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .position-link {
@@ -207,7 +209,8 @@ section {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    transition-duration: 225ms;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .address-link:focus,
