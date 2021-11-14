@@ -96,9 +96,7 @@ section {
 .menu-nav{
     display: inline-flex;
     margin-left: 93px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-nav-text{
@@ -153,13 +151,11 @@ section {
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    font-style: normal;
     color:var(--color-h-text);
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -169,12 +165,11 @@ section {
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    font-style: normal;
     color:var(--color-link);
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .position-link {
@@ -209,8 +204,7 @@ section {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .address-link:focus,
@@ -266,8 +260,12 @@ section {
     line-height: 1.62;
     letter-spacing: 0.03em;
     cursor: pointer;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);    
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+}
+
+.modal-btn:hover {
+    border-radius: 8px;
 }
 
 .modal {
@@ -544,6 +542,7 @@ border-radius: 0px 0px 4px 4px;
   justify-content: center;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+  transition-property: fill;
 }
 
 .soc-link:hover, .soc-link:focus{
@@ -609,8 +608,8 @@ border-radius: 0px 0px 4px 4px;
 .partner-icon{
     display: flex;
     fill: #AFB1B8;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .partners-list:focus, .partners-list:hover{
@@ -668,8 +667,7 @@ border-radius: 0px 0px 4px 4px;
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -685,8 +683,7 @@ border-radius: 0px 0px 4px 4px;
     letter-spacing: 0.03em;
     list-style-type: none;
     color: white;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
@@ -814,8 +811,9 @@ border-radius: 0px 0px 4px 4px;
     padding: 6px 22px;
     border: none;
     border-radius: 4px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
     
 .portf-btn-f{ 
@@ -918,8 +916,7 @@ border-radius: 0px 0px 4px 4px;
     width: 100%;
     height: 100%;
     background-color: rgba(33, 150, 243, 0.9);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-text{
@@ -942,6 +939,5 @@ border-radius: 0px 0px 4px 4px;
 
 .portfolio-menu-list{
     display: block;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
