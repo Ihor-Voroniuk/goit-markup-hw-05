@@ -541,9 +541,8 @@ border-radius: 0px 0px 4px 4px;
   align-items: center;
   justify-content: center;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
-  transition-property: fill, background-color;
-
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background,fill;
 }
 
 .soc-link:hover, .soc-link:focus{
@@ -776,7 +775,7 @@ border-radius: 0px 0px 4px 4px;
     width: 44px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: fill, background-color;
+    transition-property:  background-color;
 
 }
 
